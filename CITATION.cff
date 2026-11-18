@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Classical machine learning for land-clearing detection in the Merauke PSN area (T01): code and data"
+type: software
+authors:
+  - family-names: "[NAMA BELAKANG]"
+    given-names: "[NAMA DEPAN]"
+    affiliation: "[INSTITUSI]"
+version: "1.0.0"
+date-released: "2026-11-18"
+license: MIT
+keywords:
+  - machine learning
+  - Sentinel-2
+  - land-clearing detection
+  - Google Earth Engine
+  - Merauke

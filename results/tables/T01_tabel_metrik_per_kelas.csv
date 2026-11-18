@@ -1,0 +1,4 @@
+kelas,presisi (UA),recall (PA),F1,n_uji
+Lahan dibuka,0.9282,0.9711,0.9492,173
+Hutan stabil,0.7635,0.7381,0.7506,210
+Non-hutan stabil,0.7653,0.7617,0.7635,214

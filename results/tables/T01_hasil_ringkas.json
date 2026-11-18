@@ -1,0 +1,140 @@
+{
+  "blok_A_loss_2024_2025_ha": 7935.9,
+  "jumlah_citra_S2_pra": 144,
+  "jumlah_citra_S2_pasca": 162,
+  "jumlah_sampel_total": 2100,
+  "jumlah_sampel_latih": 1503,
+  "jumlah_sampel_uji": 597,
+  "sampel_per_kelas": {
+    "Lahan dibuka": 700,
+    "Hutan stabil": 700,
+    "Non-hutan stabil": 700
+  },
+  "kombinasi_terbaik": {
+    "model": "GBT",
+    "set_fitur": "FS5",
+    "OA": 0.8141,
+    "Kappa": 0.7203,
+    "F1_makro": 0.8211
+  },
+  "F1_makro_model_x_fitur": {
+    "FS1": {
+      "RF": 0.735,
+      "SVM": 0.7396,
+      "GBT": 0.7532,
+      "KNN": 0.7452
+    },
+    "FS2": {
+      "RF": 0.7521,
+      "SVM": 0.7407,
+      "GBT": 0.7418,
+      "KNN": 0.7412
+    },
+    "FS3": {
+      "RF": 0.8054,
+      "SVM": 0.8145,
+      "GBT": 0.8147,
+      "KNN": 0.8147
+    },
+    "FS4": {
+      "RF": 0.8091,
+      "SVM": 0.816,
+      "GBT": 0.8201,
+      "KNN": 0.8073
+    },
+    "FS5": {
+      "RF": 0.8035,
+      "SVM": 0.8119,
+      "GBT": 0.8211,
+      "KNN": 0.8006
+    }
+  },
+  "OA_model_x_fitur": {
+    "FS1": {
+      "RF": 0.732,
+      "SVM": 0.737,
+      "GBT": 0.7504,
+      "KNN": 0.742
+    },
+    "FS2": {
+      "RF": 0.7487,
+      "SVM": 0.7387,
+      "GBT": 0.737,
+      "KNN": 0.7387
+    },
+    "FS3": {
+      "RF": 0.799,
+      "SVM": 0.8074,
+      "GBT": 0.8074,
+      "KNN": 0.8074
+    },
+    "FS4": {
+      "RF": 0.8023,
+      "SVM": 0.809,
+      "GBT": 0.8124,
+      "KNN": 0.8007
+    },
+    "FS5": {
+      "RF": 0.7973,
+      "SVM": 0.804,
+      "GBT": 0.8141,
+      "KNN": 0.794
+    }
+  },
+  "dampak_tuning_F1": {
+    "RF": -0.004,
+    "SVM": 0.0073,
+    "GBT": 0.0012,
+    "KNN": 0.0
+  },
+  "FS5_10_fitur_teratas": [
+    "B3_post",
+    "B4_post",
+    "dNDVI",
+    "B5_post",
+    "NBR_pre",
+    "B2_post",
+    "dNDMI",
+    "B11_post",
+    "BSI_post",
+    "EVI_post"
+  ],
+  "mcnemar": [
+    {
+      "model_A": "RF",
+      "model_B": "SVM",
+      "p_value": 0.5966
+    },
+    {
+      "model_A": "RF",
+      "model_B": "GBT",
+      "p_value": 0.0525
+    },
+    {
+      "model_A": "RF",
+      "model_B": "KNN",
+      "p_value": 0.8776
+    },
+    {
+      "model_A": "SVM",
+      "model_B": "GBT",
+      "p_value": 0.3771
+    },
+    {
+      "model_A": "SVM",
+      "model_B": "KNN",
+      "p_value": 0.3771
+    },
+    {
+      "model_A": "GBT",
+      "model_B": "KNN",
+      "p_value": 0.1038
+    }
+  ],
+  "model_peta": "GBT",
+  "luas_per_kelas_ha": {
+    "Lahan dibuka": 7835.2,
+    "Hutan stabil": 19558.2,
+    "Non-hutan stabil": 12636.1
+  }
+}
