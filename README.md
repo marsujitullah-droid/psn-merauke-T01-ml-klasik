@@ -1,6 +1,7 @@
 # Classical Machine Learning for Land-Clearing Detection in the Merauke PSN Area (T01)
 
 [![DOI](https://zenodo.org/badge/1462952398.svg)](https://doi.org/10.5281/zenodo.24346282)
+
 Code, data and results for the study *"Comparing Classical Machine Learning Algorithms and Sentinel-2 Feature Configurations for Land-Clearing Detection in the Merauke National Strategic Project Area, South Papua, Indonesia"*.
 
 > **Ringkasan (ID):** Repositori ini berisi notebook, dataset sampel, dan tabel hasil untuk perbandingan Random Forest, SVM, Gradient Boosting, dan KNN pada lima konfigurasi fitur Sentinel-2 untuk deteksi pembukaan lahan di Blok A kawasan PSN Merauke (2023 vs 2025), dengan data acuan tanpa survei lapangan dan validasi silang spasial.
